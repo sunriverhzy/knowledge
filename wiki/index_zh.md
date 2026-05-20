@@ -1,6 +1,6 @@
 # AI 研究 Wiki —— 索引
 
-*最后更新：2026-05-20 ｜ 论文：56 ｜ 概念：15 ｜ 作者：0*
+*最后更新：2026-05-20 ｜ 论文：93 ｜ 概念：16 ｜ 作者：0*
 
 > **这是 Wiki 的导航中枢。**
 > 每次摄取都**必须**更新本页。
@@ -87,6 +87,43 @@
 | [[zhang-2025-agentcpm-gui]] | AgentCPM-GUI：Mobile-use RFT Agent | 2025 | EMNLP | agent, mobile, rft | read |
 | [[tang-2025-magicgui]] | MagicGUI：Foundational Mobile GUI Agent + RFT | 2025 | arXiv | agent, mobile, rl | read |
 | [[yang-2025-gta1]] | GTA1：GUI 测试时扩展 Agent | 2025 | arXiv | agent, gui-agent, test-time-scaling | read |
+| [[xu-2026-mobile-world-model]] | Mobile World Model 如何指导 GUI Agent？ | 2026 | arXiv | agent, mobile, world-model | read |
+| [[qin-2026-executable-agentic-memory]] | GUI Agent 的可执行 Agentic Memory | 2026 | arXiv | agent, gui-agent, memory | read |
+| [[hu-2026-faithful-mobile-gui]] | 带引导 Advantage 估计器的忠实 Mobile GUI Agent | 2026 | arXiv | agent, mobile, grpo | read |
+| [[xu-2026-mobile-agent-v3-5]] | Mobile-Agent-v3.5：多平台基础 GUI Agent | 2026 | arXiv | agent, mobile, computer-use, rl | read |
+| [[shi-2025-mobilegui-rl]] | MobileGUI-RL：在线 RL 驱动的 Mobile GUI Agent | 2025 | ICLR 2026 | agent, mobile, online-rl | read |
+| [[liu-2025-learnact]] | LearnAct：统一 Demonstration Benchmark 的少样本 Mobile GUI Agent | 2025 | ACL 2026 | agent, mobile, few-shot | read |
+| [[liu-2026-continual-gui-agents]] | Continual GUI Agents | 2026 | arXiv | agent, gui-agent, continual-learning | read |
+| [[guo-2026-acurl]] | Computer-Use Agent 的自主持续学习 | 2026 | arXiv | agent, computer-use, continual-learning | read |
+| [[yang-2026-cgl]] | CGL：持续 GUI 学习的 RFT | 2026 | arXiv | agent, gui-agent, continual-learning | read |
+| [[cui-2026-agentic-reward-modeling]] | Agentic Reward Modeling：主动交互验证 GUI Agent | 2026 | arXiv | agent, gui-agent, reward-modeling | read |
+| [[zhang-2025-progrm]] | ProgRM：用进度奖励构建更好的 GUI Agent | 2025 | arXiv | agent, gui-agent, process-reward | read |
+| [[yang-2025-zerogui]] | ZeroGUI：零人工成本的 Online GUI 学习 | 2025 | arXiv | agent, gui-agent, online-rl | read |
+| [[chen-2025-prore]] | ProRe：Reasoner-Actor 协作的主动奖励系统 | 2025 | arXiv | agent, gui-agent, reward-modeling | read |
+| [[xiong-2025-gui-pra]] | GUI-PRA：GUI 任务的过程奖励 Agent | 2025 | ICLR 2026 | agent, gui-agent, process-reward | read |
+| [[xi-2025-agentprm]] | AgentPRM：逐步 Promise 和 Progress 的过程奖励模型 | 2025 | arXiv | agent, gui-agent, process-reward | read |
+| [[wu-2025-smartsnap]] | SmartSnap：主动证据寻求的自验证 Agent | 2025 | arXiv | agent, gui-agent, verification | read |
+| [[wu-2025-auto-scaling-memory]] | GUI Agent 的自动缩放连续记忆 | 2025 | arXiv | agent, gui-agent, memory | read |
+| [[cheng-2025-mga]] | MGA：观察中心交互的记忆驱动 GUI Agent | 2025 | arXiv | agent, gui-agent, memory | read |
+| [[sun-2026-magnet]] | Magnet：记忆驱动知识演化的自适应 GUI Agent | 2026 | arXiv | agent, gui-agent, memory, adaptive | read |
+| [[wang-2025-history-aware-reasoning]] | GUI Agent 的历史感知推理 | 2025 | arXiv | agent, gui-agent, memory, reasoning | read |
+| [[tian-2025-agentprog]] | AgentProg：程序引导上下文管理赋能长时程 GUI Agent | 2025 | arXiv | agent, gui-agent, memory | read |
+| [[xiao-2026-webworld]] | WebWorld：Web Agent 训练的大规模 World Model | 2026 | arXiv | agent, web-agent, world-model | read |
+| [[xu-2026-code2world]] | Code2World：通过可渲染代码生成的 GUI World Model | 2026 | arXiv | agent, gui-agent, world-model | read |
+| [[luo-2025-vimo]] | ViMo：App Agent 的生成式视觉 GUI World Model | 2025 | ICLR 2026 | agent, gui-agent, world-model, generative | read |
+| [[wang-2026-subgoal-framework]] | 改进长时程 LLM Agent 的子目标驱动框架 | 2026 | arXiv | agent, gui-agent, subgoal | read |
+| [[wu-2026-ground-cua]] | GroundCUA：从人类 Demonstration 引导 CUA Grounding | 2026 | arXiv | agent, computer-use, grounding | read |
+| [[gui-aima-2025]] | GUI-AIMA：内在多模态注意力与上下文锚点对齐 | 2025 | arXiv | agent, gui-agent, grounding, attention | read |
+| [[zhao-2025-co-epg]] | Co-EPG：规划与 Grounding 的协同演化 | 2025 | arXiv | agent, gui-agent, grounding, planning | read |
+| [[wu-2025-gui-kv]] | GUI-KV：时空感知 KV Cache 的高效 GUI Agent | 2025 | ICLR 2026 | agent, gui-agent, efficiency, kv-cache | read |
+| [[liu-2025-pal-ui]] | PAL-UI：视觉 GUI Agent 的主动回看规划 | 2025 | ICLR 2026 | agent, gui-agent, planning, memory | read |
+| [[mmb-gui-2025]] | MMBench-GUI：层次化多平台 GUI Agent 评测框架 | 2025 | ICLR 2026 | agent, gui-agent, benchmark, multi-platform | read |
+| [[jia-2025-osworld-mcp]] | OSWorld-MCP：MCP 工具调用的 Computer-use Benchmark | 2025 | arXiv | agent, computer-use, benchmark, mcp | read |
+| [[yan-2025-mcpworld]] | MCPWorld：API/GUI/混合 CUA 统一 Benchmark | 2025 | arXiv | agent, computer-use, benchmark, api-gui-hybrid | read |
+| [[kuntz-2025-os-harm]] | OS-HARM：Computer-use Agent 安全测量 Benchmark | 2025 | arXiv | agent, computer-use, benchmark, safety | read |
+| [[xiang-2025-uisim]] | UISim：动态 Mobile 环境的图像 UI 模拟器 | 2025 | arXiv | agent, mobile, simulator | read |
+| [[zhang-2026-m2-miner]] | M2-Miner：Mobile GUI Agent 数据挖掘的 MCTS | 2026 | ICLR 2026 | agent, mobile, mcts, data-mining | read |
+| [[tang-2026-clawgui]] | ClawGUI：训练/评测/部署 GUI Agent 的统一框架 | 2026 | arXiv | agent, gui-agent, framework | read |
 
 ### 奖励建模
 | Slug | 标题 | 年份 | 会议 | 标签 | 状态 |
@@ -148,6 +185,7 @@
 | Slug | 标题 | 领域 |
 |------|------|------|
 | [[think-rm-vs-good-teacher]] | Think-RM vs Good Teacher —— 看待 RM 质量的两种视角 | reward-modeling, rlhf, alignment, theory |
+| [[verifier-agent-reward-systems]] | Verifier Agent 奖励系统 —— 从被动 RM 到主动验证 | agent, reward-modeling, rl |
 
 ---
 

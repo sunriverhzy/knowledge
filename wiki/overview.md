@@ -9,7 +9,7 @@
 > When in doubt, update `wiki/index.md` first; only update this file when
 > the ingest genuinely moves the needle on the field-level picture.
 
-*Last updated: 2026-05-20 (54 GUI/CUA papers + 8 new concepts ingested)*
+*Last updated: 2026-05-20 (37 latest GUI/CUA/mobile-use papers ingested; total Agent papers now 93)*
 
 ---
 
@@ -57,8 +57,21 @@ so far**, and **what the open problems are**.
 - [[wei-2025-webagent-r1]] — Multi-turn GRPO for web agents.
 - [[ding-2026-dynaweb]] — Web world model; model-based RL.
 - [[wu-2025-hi-agent]] — Hierarchical planner-executor; 87.9% AitW.
+*Key papers (latest 2025-2026 additions):*
+- [[xu-2026-mobile-world-model]] — Mobile world model modalities; renderable code best for training.
+- [[qin-2026-executable-agentic-memory]] — KG-based executable memory (+19.6% on AndroidWorld).
+- [[xu-2026-mobile-agent-v3-5]] — GUI-Owl-1.5; MRPO multi-platform RL; SOTA on 20+ benchmarks.
+- [[liu-2026-continual-gui-agents]] — First continual RL framework for GUI agents.
+- [[cui-2026-agentic-reward-modeling]] — VAGEN: active verifier agent for noise-free RLVR.
+- [[zhang-2026-m2-miner]] — MCTS + multi-agent for 64× efficient mobile data mining.
+- [[luo-2025-vimo]] — ViMo: first visual GUI world model (image output, not text).
+- [[xu-2026-code2world]] — Code2World: renderable-code world model.
+- [[hu-2026-faithful-mobile-gui]] — GuAE: prevents advantage collapse in sparse GUI RL.
 *Open questions:* How do we reliably train long-horizon agents?
 How do multi-agent systems fail? How to build world models faithful enough for cross-app OS tasks?
+**Can continual learning agents stay current as apps evolve without catastrophic forgetting?**
+**How do we provide dense process rewards without manual annotation?**
+**When should GUI agents use API tools vs GUI actions?**
 
 ### Thread 3 — Reward Models as a Subject of Study
 *Key concepts:* reward model quality, reward hacking, long-horizon reward

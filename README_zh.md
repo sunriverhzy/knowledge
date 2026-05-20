@@ -196,4 +196,4 @@ wiki/papers/llm/    vaswani-2017-attention.md
 ## 许可
 
 个人知识库 —— 除非你另有说明，保留所有权利。
-`sources/` 和 `raw/` 中的论文保留其原有许可证。
+`sources/` 和 `raw/` 中的论文保留其原有许可证。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

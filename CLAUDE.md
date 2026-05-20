@@ -455,6 +455,37 @@ When answering a question from the wiki:
 6. If the wiki lacks sufficient information, **say so explicitly** and
    suggest which paper or concept page would fill the gap.
 
+### Query → Wiki Write-back Rule
+
+> "Good answers can be filed back into the wiki as new pages."
+> — Andrej Karpathy, LLM Wiki pattern
+
+**When to write back:**
+- The answer contains a **novel analysis, comparison, or connection** not already in the wiki.
+- The answer synthesizes **3+ wiki pages** into a coherent narrative.
+- The user explicitly asks to **"record this"** or **"save this to wiki"**.
+- The answer identifies a **new concept cluster** (like "Agentic RL") that deserves its own page.
+
+**How to write back:**
+- Create a new concept page, comparison page, or reading-list page.
+- Include proper YAML frontmatter, `[[wikilinks]]`, and bilingual (`_zh`) counterpart.
+- Append an entry to `wiki/log.md` recording the query and write-back.
+- Update `wiki/index.md` and `wiki/index_zh.md`.
+
+**What NOT to write back:**
+- Operational requests ("download this PDF", "push to git") — these are transient.
+- Questions already fully answered by existing wiki pages — just cite them.
+- Raw chat history — the wiki stores **compiled knowledge**, not conversations.
+
+### Operations Log
+
+All operations (init, ingest, query write-backs, lint) are recorded in
+`wiki/log.md` as an append-only timeline. Format:
+
+```
+## [YYYY-MM-DD] operation | description
+```
+
 ---
 
 ## 🩺 Lint Rules
